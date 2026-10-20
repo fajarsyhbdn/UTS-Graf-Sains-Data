@@ -8,8 +8,15 @@ Repository ini berisi pengerjaan UTS mata kuliah Graf Sains Data, meliputi pemod
 
 ## Dataset
 Dataset yang digunakan adalah data interaksi e-commerce Retailrocket yang dibagi menjadi:
-- `retailrocket_train_new.csv`: data training P1.
+- `retailrocket_train_new.csv`: data training P1. 
 - `retailrocket_test_new.csv`: data testing P2.
+
+Dataset Retailrocket yang digunakan dalam analisis disimpan di Google Drive karena ukuran file melebihi batas unggahan melalui browser GitHub.
+
+- **Training Dataset (P1):** [ https://drive.google.com/file/d/19M1ttwoOqpI3cMAj7QMbGGj0KEnrZGsk/view?usp=drive_link ]
+- **Testing Dataset (P2):** [ https://drive.google.com/file/d/1wOKBnXhsubXXGf3FYUkI7geXlsvQg7wk/view?usp=drive_link) ]
+
+Notebook analisis, tahapan pengolahan data, pembentukan graf, perhitungan kemiripan item, serta evaluasi rekomendasi KNN tersedia di repository ini.
 
 Kolom utama meliputi timestamp, visitorid, event, itemid, dan transactionid.
 
